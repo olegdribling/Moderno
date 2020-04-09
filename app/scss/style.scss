@@ -328,6 +328,45 @@
         line-height: 24px;
     }
 }
+// section advantages end
 
+// section author
+.author{    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &__box{
+        max-width: 650px;
+        width: 100%;
+        min-height: 215px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $green;
+    }
+    &__title{
+        color: white;
+        font-size: 30px;
+        line-height: 30px;
+        margin-right: 45px;
+        
+        max-width: 280px;
+        span{
+            @include f700;
+        }
+    }
+    &__link{
+        font-size: 18px;
+        padding: 22px 40px;
+        background-color: #fff;
+    }
+}
+
+// section author end
 
 
