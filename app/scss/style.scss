@@ -403,7 +403,7 @@
 }
 .creat-acc{
     margin-top: 19px;
-    padding: 15px 0 16px;
+    padding: 15px 0 16px 28px;
     text-align: center;
     width: 245px;
     background-color: #76ae36;
@@ -414,10 +414,13 @@
         content: "\f044";
         position: absolute;
         top: 15px;
-        left: 25px;
+        left: 35px;
         font-family: 'icomoon' !important;
     }
 
+}
+.fancybox-button svg path{
+    color: white;
 }
 // popup section
 
@@ -1635,11 +1638,86 @@ button.icon-unsorted{
 
 // section product-one 
 
+// section page 404
+.page-404__wrapper,
+.about__wrapper{
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    margin-bottom: 150px;
+}
+.page-404__head,
+.about__head{
+    font-size: 24px;
+    color: #444444;
+    padding: 23px 27px;
+    @include f500;
+    border-bottom: 1px solid #dcdcdc;
+}
+.page-404__inner{
+    text-align: center;
+    background-color: $green;
+    color: white;
+}
+.page-404__404{
+    font-size: 300px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        background-image: url(../images/404.png);
+        width: 150px;
+        height: 292px;
+        margin-left: 20px;
+    }
+}
+.page-404__title{
+    font-size: 30px;
+    padding-bottom: 30px;
+    @include f400;
+    
+}
+.page-404__text{
+    font-size: 18px;
+    max-width: 510px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    line-height: 28px;
+}
+.page-404__link{
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 30px 16px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    margin-bottom: 100px;
+}
+.about__inner{
+    padding: 0px 50px;
+} 
+.about__box{
+    h3{
+        font-size: 20px;
+        color: #444;
+        @include f700;
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+    p{
+        margin-bottom: 40px;
+    }
+}
 
-  
+// section page 404
+
+// section about page
 
 
-
+// section about page
 // media
 @import 'media';
 
